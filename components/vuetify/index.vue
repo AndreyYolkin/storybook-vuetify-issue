@@ -22,6 +22,7 @@ defineProps({
               icon="mdi-fire"
             />
           </div>
+          <v-otp-input></v-otp-input>
         </v-sheet>
       </v-col>
     </v-row>
