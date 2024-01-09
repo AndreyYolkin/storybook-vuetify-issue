@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
-    'vuetify-nuxt-module',
+    "@invictus.codes/nuxt-vuetify",
   ],
   i18n: {
     locales: ['en', 'fr', 'ar'],
