@@ -13,20 +13,25 @@
   "devDependencies": {
     "@nuxtjs/i18n": "^8.0.0",
     "@storybook-vue/nuxt": "0.2.1",
-    "@storybook/addon-essentials": "^7.6.7",
-    "@storybook/addon-interactions": "^7.6.7",
-    "@storybook/addon-links": "^7.6.7",
-    "@storybook/builder-vite": "^7.6.7",
+    "@storybook/addon-essentials": "^7.6.8",
+    "@storybook/addon-interactions": "^7.6.8",
+    "@storybook/addon-links": "^7.6.8",
+    "@storybook/builder-vite": "^7.6.8",
     "@storybook/testing-library": "^0.2.2",
-    "@storybook/vue3": "^7.6.7",
-    "@storybook/vue3-vite": "^7.6.7",
-    "@types/node": "^18.19.5",
+    "@storybook/vue3": "^7.6.8",
+    "@storybook/vue3-vite": "^7.6.8",
+    "@types/node": "^18.19.6",
     "nuxt": "^3.9.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.6.7",
+    "storybook": "^7.6.8",
     "typescript": "^5.3.3",
     "vue-router": "^4.2.5",
-    "vuetify-nuxt-module": "^0.8.0"
+    "vuetify-nuxt-module": "^0.10.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "@storybook/vue3-vite@7.6.8>@vitejs/plugin-vue": "^5.0.3"
+    }
   }
 }
